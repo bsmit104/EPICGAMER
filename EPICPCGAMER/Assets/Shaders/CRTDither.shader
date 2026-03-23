@@ -2,11 +2,13 @@ Shader "Custom/CRTDither_HDRP"
 {
     Properties
     {
-        _ScanlineScroll  ("Scanline Scroll",  Range(0,1))   = 0
-        _DitherStrength  ("Dither Strength",  Range(0,1))   = 0.45
-        _PhosphorGreen   ("Phosphor Green",   Range(0,0.3)) = 0.08
-        _Brightness      ("Brightness",       Range(0.5,1.5)) = 1.0
-        _VignettePower   ("Vignette Power",   Range(0,4))   = 1.8
+        _ScanlineScroll  ("Scanline Scroll",  Range(0,1))    = 0
+        _DitherStrength  ("Dither Strength",  Range(0,1))    = 0.45
+        _PhosphorGreen   ("Phosphor Green",   Range(0,0.3))  = 0.08
+        _Brightness      ("Brightness",       Range(0.5,1.5))= 1.0
+        _VignettePower   ("Vignette Power",   Range(0,4))    = 1.8
+        _VignetteColor   ("Vignette Color",   Color)         = (1,1,1,1)
+        _VignettePulse   ("Vignette Pulse",   Range(0,1))    = 0
         _CurvatureX      ("Curvature X",      Range(0,0.15)) = 0.04
         _CurvatureY      ("Curvature Y",      Range(0,0.15)) = 0.04
     }
