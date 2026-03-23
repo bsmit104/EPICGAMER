@@ -32,17 +32,16 @@ public class LaneIndicatorSetup : MonoBehaviour
             GameObject obj = Instantiate(notePrefab, wp, gameCamera.transform.rotation);
             obj.layer = gameLayerIndex;
 
-            // Dim the color so it doesn't look like a real note
+            // Destroy NoteController completely — these are static markers only
+            var nc = obj.GetComponent<NoteController>();
+            if (nc != null) Destroy(nc);
+
             var sr = obj.GetComponent<SpriteRenderer>();
             if (sr != null)
             {
                 Color c = spawner.GetLaneColor(i);
                 sr.color = new Color(c.r * 0.2f, c.g * 0.2f, c.b * 0.2f, 0.5f);
             }
-
-            // Make sure it never moves — disable NoteController if present
-            var nc = obj.GetComponent<NoteController>();
-            if (nc != null) nc.enabled = false;
         }
     }
 }

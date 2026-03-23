@@ -1740,15 +1740,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d80e33301c6234d4d955274bc7376ac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laneSquares:
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
-  - {fileID: 5212791306834921534, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
+  notePrefab: {fileID: 7141597945097836528, guid: 6cbfd35b6ffae5d47b62af87d5acdd3b, type: 3}
   gameCamera: {fileID: 1447697482}
+  gameLayerIndex: 8
 --- !u!1 &977595118
 GameObject:
   m_ObjectHideFlags: 0
