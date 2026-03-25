@@ -3,3 +3,33 @@
 "keyboard" (https://skfb.ly/oEOpT) by michaelboyman1 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 "PS1 Style Old Keyboard" (https://skfb.ly/pGoGS) by Har V is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+
+are you sure i shld add notes manually in the Notes list (laneIndex + hitTime + type), isnt keeping them in the inspector risky? maybe a file like a json or txt i cld drag in for a pattern wld be better?
+
+also im not sure what u mean by hittime?
+
+
+
+gonna also need a better explanation of what i need to do here
+
+ResultsScreen — attach ResultsUI.cs, set up star images and buttons
+
+
+
+also will need more clarity as to the level button and back button set up requirements here.
+
+
+
+
+
+Create empty → GameModeManager → attach GameModeManager.cs
+
+
+
+Assign campaignLevels array with your 3 Level Data assets
+
+
+
+Assign all four screen GameObjects
+

@@ -160,7 +160,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _Anisotropy: 0
     - _BlendMode: 0
-    - _Brightness: 0.9995599
+    - _Brightness: 0.99749947
     - _CoatMask: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -224,7 +224,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _ScanlineScroll: 0.14393568
+    - _ScanlineScroll: 0.2841301
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0

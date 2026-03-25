@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public int   Combo       { get; private set; } = 0;
-    public int   MaxCombo    { get; private set; } = 0;
-    public int   TotalNotes  { get; private set; } = 0;
-    public int   HitNotes    { get; private set; } = 0;
-    public float Accuracy    { get; private set; } = 100f;
+    public int Combo { get; private set; } = 0;
+    public int MaxCombo { get; private set; } = 0;
+    public int TotalNotes { get; private set; } = 0;
+    public int HitNotes { get; private set; } = 0;
+    public float Accuracy { get; private set; } = 100f;
 
     public void RegisterHit(HitRating rating)
     {
@@ -27,6 +27,15 @@ public class ScoreManager : MonoBehaviour
     void RecalcAccuracy()
     {
         Accuracy = TotalNotes == 0 ? 100f : (HitNotes / (float)TotalNotes) * 100f;
+    }
+
+    public void Reset()
+    {
+        Combo = 0;
+        MaxCombo = 0;
+        TotalNotes = 0;
+        HitNotes = 0;
+        Accuracy = 100f;
     }
 }
 

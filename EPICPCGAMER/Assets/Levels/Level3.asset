@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe2a34975484fc468445fb4b25c1e4f, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  chartFile: {fileID: 4900000, guid: 62d9e3f45e6b20649a7a275df9e6fd95, type: 3}
+  levelName: Micro Chadlord - Level 3
+  bpm: 120
+  oneStarAccuracy: 60
+  twoStarAccuracy: 80
+  threeStarAccuracy: 95
+  startFallDuration: 2.5
+  minFallDuration: 0.8
+  rampRate: 0.04
+  notes: []

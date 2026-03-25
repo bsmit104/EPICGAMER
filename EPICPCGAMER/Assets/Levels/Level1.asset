@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe2a34975484fc468445fb4b25c1e4f, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  chartFile: {fileID: 4900000, guid: c95b89668c8cd164398006013312f7f3, type: 3}
+  levelName: Noob - Level 1
+  bpm: 120
+  oneStarAccuracy: 60
+  twoStarAccuracy: 80
+  threeStarAccuracy: 95
+  startFallDuration: 2.5
+  minFallDuration: 0.8
+  rampRate: 0.04
+  notes:
+  - laneIndex: 0
+    hitTime: 0
+    type: 0
+    holdDuration: 0
+  - laneIndex: 0
+    hitTime: 0
+    type: 0
+    holdDuration: 0
+  - laneIndex: 0
+    hitTime: 0
+    type: 0
+    holdDuration: 0

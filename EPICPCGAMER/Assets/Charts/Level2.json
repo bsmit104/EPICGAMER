@@ -1,0 +1,27 @@
+{
+  "levelName": "Level 2",
+  "bpm": 130,
+  "oneStarAccuracy": 60,
+  "twoStarAccuracy": 80,
+  "threeStarAccuracy": 95,
+  "startFallDuration": 2.2,
+  "minFallDuration": 0.7,
+  "rampRate": 0.05,
+  "notes": [
+    {"lane": 0, "beat": 1},
+    {"lane": 6, "beat": 1},
+    {"lane": 2, "beat": 2},
+    {"lane": 4, "beat": 3},
+    {"lane": 1, "beat": 4},
+    {"lane": 5, "beat": 4},
+    {"lane": 3, "beat": 5},
+    {"lane": 0, "beat": 6},
+    {"lane": 6, "beat": 7},
+    {"lane": 3, "beat": 8},
+    {"lane": 1, "beat": 9},
+    {"lane": 5, "beat": 9},
+    {"lane": 0, "beat": 10, "hold": 2},
+    {"lane": 6, "beat": 10, "hold": 2},
+    {"lane": 3, "beat": 13, "hold": 3}
+  ]
+}
